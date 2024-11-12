@@ -1,4 +1,6 @@
-
+.container {
+    margin-bottom: 92px;
+}
 form {
     display: flex;
     justify-content: center;
@@ -51,8 +53,23 @@ button:hover {
     background-color: rgba(108, 140, 255, 1);
 }
 
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 92px;
+}
+
 .button-load {
-    display: inline-block;
+    min-width: 125px;
+    padding: 8px 16px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out
 }
 
 .load-more-hidden {
