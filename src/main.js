@@ -35,7 +35,7 @@ form.addEventListener('submit', async (event) => {
 
 
 LoadMoreBtn.addEventListener('click', async () => {
-    currentPage++;
+    currentPage += 1;
     loader.style.display = 'block';
     await loadImages();
     loader.style.display = 'none';
