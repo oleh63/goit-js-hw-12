@@ -21,7 +21,7 @@ export function renderGallery(images, galleryElement) {
     
     gallery.insertAdjacentHTML('beforeend', markup);
 
-    const lightbox = new SimpleLightbox('.galerry a');
+    const lightbox = new SimpleLightbox('.gallery a');
     lightbox.refresh();
 }
 
