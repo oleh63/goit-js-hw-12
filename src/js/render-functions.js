@@ -30,7 +30,7 @@ export function smoothScroll() {
     const { height: cardHeight } = document.querySelector('.gallery-item').getBoundingClientRect();
     window.scrollBy({
         top: cardHeight * 2,
-        benavior: 'smooth',
+        behavior: 'smooth',
     });
 }
 
